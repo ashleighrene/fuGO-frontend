@@ -1,0 +1,32 @@
+.contactMain {
+	margin: 0px;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #9b5de5;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.contactContainer h2 {
+	text-align: center;
+	font-size: 2.5em;
+	font-family: 'Permanent Marker', cursive;
+	text-decoration: underline;
+}
+
+.contactPhone {
+	font-size: 2.5em;
+	text-align: center;
+	padding: 1em;
+}
+.contactEmail {
+	font-size: 2.5em;
+	text-align: center;
+	padding: 1em;
+}
+.contactAddress {
+	font-size: 2.5em;
+	text-align: center;
+	padding: 1em;
+}

@@ -1,0 +1,72 @@
+.navbar-container {
+	background-color: #f15bb5;
+	font-family: 'Patrick Hand', cursive;
+}
+
+.homeLogo {
+	font-size: 1.5em;
+	text-decoration: none;
+}
+
+.homeLogo-img {
+	height: 3em;
+}
+
+/* https://animate.style/ */
+.homeLogo-img:hover {
+	animation: heartBeat;
+	animation-duration: 2s;
+	animation-iteration-count: initial;
+}
+
+.toggleButton {
+	background-color: #e62097;
+}
+
+.customNav {
+	display: flex;
+	text-align: center;
+}
+
+.linkStyle {
+	text-decoration: none;
+	color: black;
+	font-size: 2em;
+}
+
+.linkStyle:hover {
+	text-decoration: none;
+	justify-content: space-around;
+	color: black;
+	text-shadow: 1px 1px rgb(214, 212, 99);
+	font-size: 2em;
+}
+
+/* Desktop Specific Styling */
+
+@media (min-width: 990px) {
+	.linkStyle {
+		padding-left: 1.5em;
+	}
+	.sign_in {
+		margin-left: 7em;
+	}
+}
+
+@media (min-width: 1180px) {
+	.linkStyle {
+		padding-left: 1.5em;
+	}
+	.sign_in {
+		margin-left: 7em;
+	}
+}
+
+@media (min-width: 1202px) {
+	.linkStyle {
+		padding-left: 1.5em;
+	}
+	.sign_in {
+		margin-left: 10.5em;
+	}
+}
