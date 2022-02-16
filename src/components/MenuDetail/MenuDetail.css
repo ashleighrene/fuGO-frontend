@@ -1,0 +1,31 @@
+.detailContainer {
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 20px 40px;
+	font-family: 'Ubuntu Mono', monospace;
+}
+
+.detailContainer img {
+	width: 250px;
+	height: 200px;
+	border-radius: 8%;
+}
+
+.detailTitle {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #f15bb5;
+}
+
+.detailPrice {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #00bbf9;
+}
+
+.detailDesc {
+	text-align: center;
+}

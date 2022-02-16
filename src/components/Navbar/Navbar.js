@@ -20,9 +20,6 @@ function NavBar(props) {
 					/>
 					<Navbar.Collapse className='basic-navbar-nav'>
 						<Nav className='me-auto customNav'>
-							<Link to='/blog' className='linkStyle'>
-								Blog
-							</Link>
 							<Link to='/menu' className='linkStyle'>
 								Menu
 							</Link>
