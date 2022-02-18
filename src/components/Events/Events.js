@@ -1,32 +1,36 @@
 import '../../reset.css';
 import './Events.css';
 import React from 'react';
+import fuji from '../../assets/fujisan_hinode.png';
 
 function Events(props) {
 	return (
 		<section className='eventsMain'>
 			<div className='eventsContainer'>
 				<div className='eventBox'>
-					<h3>Seattle Eats Fair</h3>
+					<h3>Dragon Festival</h3>
 					<div>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-						corrupti, repellat vitae provident aut officiis dignissimos voluptas
-						esse. Labore impedit minus placeat doloribus veniam molestiae
-						dolores a at rerum quo!
+						<br />
+						June 1-3, 9am-9pm
+						<br />
+						We'll be at booth 25A
 					</div>
 					<h3>Tacoma Food Fest</h3>
 					<div>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quas
-						soluta omnis. Repellendus id veniam adipisci nam libero reiciendis
-						eum tenetur temporibus repellat, unde dignissimos debitis omnis
-						officiis nobis in.
+						<br />
+						September 13-17, 10am-8pm
+						<br />
+						Come find us in tent 54B!
 					</div>
 					<h3>Washington State Fair</h3>
 					<div>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia omnis
-						numquam quasi sit nesciunt, ex incidunt voluptatum quas, delectus ut
-						sapiente? Totam incidunt placeat exercitationem explicabo
-						voluptates, provident dolor? Soluta.
+						<br />
+						September 22-29 11am-7pm
+						<br />
+						Food court next to 4H pens. Spot #7
+					</div>
+					<div>
+						<img src={fuji} alt='Mt. Fuji' />
 					</div>
 				</div>
 			</div>

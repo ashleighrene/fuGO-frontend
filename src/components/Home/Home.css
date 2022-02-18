@@ -10,7 +10,7 @@
 }
 
 .mainContainer {
-	background-color: #fee440;
+	background-color: #f0de6e;
 	border-top: 2px solid black;
 	width: 100%;
 	text-align: center;
@@ -27,7 +27,10 @@ h2 {
 	height: 50%;
 	position: relative;
 	overflow: hidden;
-	background-color: #fee440;
+	background-color: #f0de6e;
+	animation: zoomInUp;
+	animation-duration: 1.5s;
+	animation-iteration-count: initial;
 }
 
 .mainText {
@@ -49,7 +52,7 @@ h2 {
 		height: 60%;
 		position: relative;
 		overflow: hidden;
-		background-color: #fee440;
+		background-color: #f0de6e;
 	}
 }
 

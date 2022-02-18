@@ -1,4 +1,5 @@
 import '../../reset.css';
+import 'animate.css';
 import './Home.css';
 import React from 'react';
 import sushi from '../../assets/sushi_8kan_02.png';
@@ -16,7 +17,7 @@ function Home(props) {
 						sushi right to your door. Check out our menu, add your items and in
 						no time at all, your fresh and fun meal will be sitting at your
 						door. Unpack, chow down, and place your dishes outside - our
-						delivery wizards will be back to pick them up. Be sure to scope out
+						delivery ninjas will be back to pick them up. Be sure to scope out
 						the rest of the site to see what we're up to! ~{' '}
 						<FontAwesomeIcon icon={faHeart} className='fa_icon' /> Mochi and the
 						fuGO team.

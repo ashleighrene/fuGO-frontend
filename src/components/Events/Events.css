@@ -1,29 +1,29 @@
 .eventsMain {
 	background-color: #00bbf9;
-	height: 100vh;
+	height: 100%;
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-family: 'Ubuntu Mono', monospace;
-}
-
-.eventsContainer {
-	background-color: white;
-	border: 3px solid black;
-	height: 40%;
-	width: 50%;
+	overflow: scroll;
 }
 
 .eventBox {
 	text-align: center;
+	background-color: #00bbf9;
 }
 
 .eventBox h3 {
+	background-color: #00bbf9;
+	text-align: center;
 	font-size: 2em;
 	text-decoration: underline;
-	margin: ;
+	margin-top: 0.5em;
 }
 
 .eventBox div {
-	margin: 1em;
+	text-align: center;
+	font-size: 1.5em;
+	background-color: #00bbf9;
 }

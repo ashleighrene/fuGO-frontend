@@ -8,7 +8,7 @@ import Contact from './components/Contact/Contact';
 import Events from './components/Events/Events';
 import Home from './components/Home/Home';
 import Menu from './components/Menu/Menu';
-import MenuDetail from './components/MenuDetail/MenuDetail';
+
 import Navbar from './components/Navbar/Navbar';
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
 				<Routes>
 					<Route path='/home' element={<Home />}></Route>
 					<Route path='/menu' element={<Menu />}></Route>
-					<Route path='menu/details/:id' element={<MenuDetail />}></Route>
+
 					<Route path='/events' element={<Events />}></Route>
 					<Route path='/contact' element={<Contact />}></Route>
 					<Route path='/' element={<Navigate replace to='/home' />}></Route>
