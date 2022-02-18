@@ -29,9 +29,6 @@ function NavBar(props) {
 							<Link to='/contact' className='linkStyle'>
 								Contact
 							</Link>
-							<Link to='#' className='linkStyle sign_in'>
-								Sign in
-							</Link>
 						</Nav>
 					</Navbar.Collapse>
 				</Container>
