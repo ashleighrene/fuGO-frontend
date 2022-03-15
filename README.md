@@ -1,11 +1,9 @@
-### Your project idea 
+### Project idea 
 fuGO:  A Food Ordering App for a Sushi Restaurant
 -The site will eventually allow the user the ability to add food to the cart and checkout.  I wanted to expand on a project similar to  my Storefront site while incorporating backend, auth, and payment.
 
-### Your tech stack (frontend, backend, database)
+### Tech stack (frontend)
 Front -  React , CSS, Bootstrap, Animate.css
-###
-
 
 ### React component hierarchy (if applicable)
 ![Screen Shot 2022-02-10 at 8 28 25 PM](https://media.git.generalassemb.ly/user/39756/files/1d9f9780-8afd-11ec-80ff-10f2c0984f8e)
