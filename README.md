@@ -5,12 +5,7 @@ fuGO:  A Food Ordering App for a Sushi Restaurant
 ### Your tech stack (frontend, backend, database)
 Front -  React , CSS, Bootstrap, Animate.css
 ###
-Back - Express / Mongoose
-Database - MongoDB
 
-### List of backend models and their properties (created but not in first deployment)
-Order:  customer_name, address, total, status, payment_method
-Product: title, description, image, price, options
 
 ### React component hierarchy (if applicable)
 ![Screen Shot 2022-02-10 at 8 28 25 PM](https://media.git.generalassemb.ly/user/39756/files/1d9f9780-8afd-11ec-80ff-10f2c0984f8e)
